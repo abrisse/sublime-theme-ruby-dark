@@ -10,7 +10,7 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#282828</string>
+        <string>#141414</string>
         <key>caret</key>
         <string>#FFFFFF</string>
         <key>foreground</key>
@@ -28,6 +28,11 @@
       <string>ERB</string>
       <key>scope</key>
       <string>source.ruby.embedded, source.ruby.rails.embedded</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#1F1F1F</string>
+      </dict>
     </dict>
     <dict>
       <key>name</key>
@@ -39,7 +44,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#BC9458</string>
+        <string>#5F5A60</string>
       </dict>
     </dict>
     <dict>
@@ -52,7 +57,7 @@
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#CC7833</string>
+        <string>#CDA869</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +81,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FFFFFF</string>
+        <string>#9B703F</string>
       </dict>
     </dict>
     <dict>
@@ -89,7 +94,7 @@
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#A5C261</string>
+        <string>#CF6A4C</string>
       </dict>
     </dict>
     <dict>
@@ -126,7 +131,7 @@
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#6D9CBE</string>
+        <string>#CF6A4C</string>
       </dict>
     </dict>
     <dict>
@@ -136,8 +141,10 @@
       <string>variable.other.constant</string>
       <key>settings</key>
       <dict>
+        <key>fontStyle</key>
+        <string></string>
         <key>foreground</key>
-        <string>#DA4939</string>
+        <string>#7587A6</string>
       </dict>
     </dict>
     <dict>
@@ -157,13 +164,13 @@
       <key>name</key>
       <string>String</string>
       <key>scope</key>
-      <string>string</string>
+      <string>string, string.quoted.double.ruby, source.ruby.embedded.source</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#A5C261</string>
+        <string>#8F9D6A</string>
       </dict>
     </dict>
     <dict>
@@ -279,35 +286,28 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>diff.deleted</string>
+      <string>Class</string>
       <key>scope</key>
-      <string>markup.deleted</string>
+      <string>support.class.ruby</string>
       <key>settings</key>
       <dict>
+        <key>fontStyle</key>
+        <string></string>
         <key>foreground</key>
-        <string>#F92672</string>
+        <string>#9B859D</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
-      <string>diff.inserted</string>
+      <string>Variable Parameter</string>
       <key>scope</key>
-      <string>markup.inserted</string>
+      <string>variable.parameter</string>
       <key>settings</key>
       <dict>
+        <key>fontStyle</key>
+        <string></string>
         <key>foreground</key>
-        <string>#A6E22E</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>diff.changed</string>
-      <key>scope</key>
-      <string>markup.changed</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#967EFB</string>
+        <string>#7587A6</string>
       </dict>
     </dict>
   </array>
